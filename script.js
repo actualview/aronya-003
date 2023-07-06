@@ -6,24 +6,24 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'trex',
+            name: 'Trex',
             location: {
-                lat: 44.496470,
-                lng: 11.320180,
+                lat: 35.149378,
+                lng: 129.066042,
             }
         },
     ];
 }
 
 function renderPlaces(places) {
-    let scene = document.querySelector('trex_08');
+    let scene = document.querySelector('a-scene');
 
     places.forEach((place) => {
         let latitude = place.location.lat;
         let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-entity-place', `latitude: ${35.149299}; longitude: ${129.065956};`);
+        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('gltf-model', './assets/trex/trex_08.gltf');
         model.setAttribute('rotation', '0 180 0');
         model.setAttribute('animation-mixer', '');
