@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'Trex',
             location: {
-                lat: 35.149062,
-                lng: 129.065222,
+                lat: 35.148983,
+                lng: 129.066199,
             }
         },
     ];
