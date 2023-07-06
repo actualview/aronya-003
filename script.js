@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'Trex',
             location: {
-                lat: 35.148983,
-                lng: 129.066199,
+                lat: 35.149106,
+                lng: 129.065195,
             }
         },
     ];
@@ -25,7 +25,7 @@ function renderPlaces(places) {
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('gltf-model', './assets/trex/scene.gltf');
-        model.setAttribute('rotation', '0 90 0');
+        model.setAttribute('rotation', '0 270 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.01 0.01 0.01');
 
