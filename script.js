@@ -25,7 +25,7 @@ function renderPlaces(places) {
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${35.149032}; longitude: ${129.065229};`);
         model.setAttribute('gltf-model', './assets/trex/scene.gltf');
-        model.setAttribute('rotation', '0 5 0');
+        model.setAttribute('rotation', '0 180 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.01 0.01 0.01');
 
