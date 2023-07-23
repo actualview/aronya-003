@@ -6,7 +6,7 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Trex',
+            name: 'Brachio',
             location: {
                 lat: 35.149058,
                 lng: 129.065263,
@@ -24,8 +24,8 @@ function renderPlaces(places) {
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${35.149058}; longitude: ${129.065263};`);
-        model.setAttribute('gltf-model', './assets/trex/scene.gltf');
-        model.setAttribute('rotation', '0 179 0');
+        model.setAttribute('gltf-model', './assets/brachio.glb');
+        model.setAttribute('rotation', '0 5 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.01 0.01 0.01');
 
