@@ -26,7 +26,7 @@ function renderPlaces(places) {
         model.setAttribute('gps-entity-place', `latitude: ${35.149146}; longitude: ${129.065263};`);
         model.setAttribute('gltf-model', './assets/brachio/scene.glb');
         model.setAttribute('rotation', '0 5 0');
-        model.setAttribute('position', '0 -1 0');
+        model.setAttribute('position', '0 -0.1 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.5 0.5 0.5');
 
