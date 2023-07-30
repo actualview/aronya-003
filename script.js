@@ -30,7 +30,7 @@ function renderPlaces(places) {
         model.setAttribute('scale', '0.95 0.95 0.95');
 
         model.addEventListener('loaded', () => {
-            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
+            window.dispatchEvent(new CustomEvent('gps-new-entity-place-loaded'))
         });
 
         scene.appendChild(model);
